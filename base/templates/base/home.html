@@ -1,0 +1,108 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Portfolio Temurbek Rakhimkuliev</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity=
+            "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/avatar.png' %}">
+                    <hr>
+                    <h4 id="profile-text">Hi I`m Timur</h4>
+                    <p>I love coding, doing research and collaborating</p>
+
+                    <ul class="social-links">
+                        <a href="https://github.com/timurxboy" target="_blank">
+                            <li><img class="social" src="{% static 'images/github(portfolio).png' %}"></li>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/temurbek-rakhimkuliev-344b9b20a/" target="_blank">
+                            <li><img class="social" src="{% static 'images/linkedin(portfolio).png' %}"></li>
+                        </a>
+
+                        <a href="https://t.me/timurxboy" target="_blank">
+                            <li><img class="social" src="{% static 'images/telegram(portfolio).png' %}"></li>
+                        </a>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>My First Job as a Developer</h4>
+                    <hr>
+                    <p>I am an experienced developer specializing in web development using the Django framework and the Python programming language.
+                        With more than 2 years of experience, I have successfully solved complex tasks in the field of development.
+                        My main focus is creating highly efficient and scalable web applications using Django. I have a deep understanding of the principles of development.</p>
+
+                    <p>In addition, I have experience working with a PostgreSQL database.
+                        I developed database schemas, performed query optimization, and ensured data reliability and security.</p>
+
+                    <p>I am constantly striving for learning and development, always looking for new ways to improve my skills and learn about the latest trends in the field of development.</p>
+
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Experience as a Developer</h5>
+                    <hr>
+                    <p> Programming in Python.
+                        Backend development using Django.
+                        Creating APIs with Swagger documentation.
+                        Developing Telegram bots for task automation.
+                        Web parsing data to extract information from various sources.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What I Know</h5>
+                    <hr>
+                    <p>Python, Django, HTML/CSS, Postgres, Threading, Asyncio, Psycopg2, SqlAlchemy</p>
+                    <p>PS: Working on Django Framework and Swagger!</p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>How I Learn</h5>
+                    <hr>
+                    <p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+                    <p> I can learn just about anything by having a final product to tear apart piece by piece. I break the
+                        code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Short Term Goals</h5> <hr>
+
+                    <p>After almost two years of supporting my system at the lab I'm ready to learn something new.</p>
+                    <p>Aside from building small projects I would love to enter a position where I can be part of a bigger team &
+                        learn from others with more experience than myself.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+</body>
+</html>

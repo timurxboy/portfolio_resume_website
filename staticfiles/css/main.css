@@ -1,0 +1,40 @@
+body {
+    background-color: #004445!important;
+}
+
+#profile-wrapper{
+    text-align: center ;
+}
+
+#profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-links ul, li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social{
+    width: 40px;
+    height: 40px;
+}
+.col-md-3 .card{
+    color: #003B46;
+    background-color: #C4DFE6!important;
+}
+
+.card{
+    color: white;
+    background-color: #2C7873!important;
+}
